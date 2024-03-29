@@ -1,11 +1,13 @@
 body{
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(139, 88, 88);
     color: antiquewhite;
 }
 .leftbar{
     background-color: #2348c2;
     position: fixed;
     font-weight: bold;
+    height: 100%;
+    width: 140px;
 }
 .leftbaritem{
     padding-right: 16px;
@@ -16,6 +18,7 @@ body{
     background-color: #2348c2;
     position: fixed;
     font-weight: bold;
+    width: 100%;
 }
 .topbaritem{
     padding-top: 10px;
@@ -23,6 +26,23 @@ body{
     float: left;
     text-align: center;
     color: inherit;
+}
+.smallimg{
+    max-width: 100%;
+    height: auto;
+}
+.padding30{
+    padding-top: 30px;
+}
+.centering{
+    text-align: center;
+}
+.box{
+    width: 350px;
+    height: auto;
+    float: left;
+    background-color: #888;
+    margin: 10px 10px;
 }
 
 /*https://www.w3schools.com/css/css3_box-sizing.asp*/
@@ -58,17 +78,7 @@ html{
 }
 
 /*https://www.w3schools.com/css/css_dimension.asp*/
-.leftbar{
-    height: 100%;
-    width: 140px;
-}
-.topbar{
-    width: 100%;
-}
-.smallimg{
-    max-width: 100%;
-    height: auto;
-}
+
 
 /*https://www.w3schools.com/cssref/pr_text_text-decoration.php*/
 /*https://www.w3schools.com/cssref/pr_text_white-space.php*/
@@ -79,10 +89,3 @@ html{
 .leftbaritem{
     text-decoration: none;
 }
-
-
-
-/*img {
-    border-style: none;
-    vertical-align: middle
-}*/
