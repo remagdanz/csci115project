@@ -1,26 +1,88 @@
-.leftbar {
+body{
+    background-color: rgb(71, 71, 71);
+    color: antiquewhite;
+}
+.leftbar{
+    background-color: #2348c2;
+    position: fixed;
+    font-weight: bold;
+}
+.leftbaritem{
+    padding-right: 16px;
+    text-align: center;
+    color: inherit;
+}
+.topbar{
+    background-color: #2348c2;
+    position: fixed;
+    font-weight: bold;
+}
+.topbaritem{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    text-align: center;
+    color: inherit;
+}
+
+/*https://www.w3schools.com/css/css3_box-sizing.asp*/
+html{
+    box-sizing: border-box;
+}
+/*https://www.w3schools.com/cssref/css_selectors.php*/
+*{
+    box-sizing: inherit;
+}
+
+/*https://www.w3schools.com/cssref/css3_pr_mediaquery.php*/
+/*https://www.w3schools.com/cssref/pr_class_display.php*/
+@media (min-width:451px){
+    .smallscreens{
+        display: none;
+    }
+}
+@media (max-width:450px){
+    .largescreens{
+        display: none;
+    }
+}
+
+/*https://www.w3schools.com/cssref/pr_pos_top.php*/
+.leftbar{
+    top: 0;
+    left: 0;
+}
+.topbar{
+    top: 0;
+    left: 0;
+}
+
+/*https://www.w3schools.com/css/css_dimension.asp*/
+.leftbar{
     height: 100%;
     width: 140px;
-    background-color: #2348c2;
-    position: fixed;
-    font-weight: bold;
 }
-
 .topbar{
-    position: fixed;
     width: 100%;
-    background-color: #2348c2;
-    font-weight: bold;
+}
+.smallimg{
+    max-width: 100%;
+    height: auto;
 }
 
-@media (min-width:601px) {
-    .smallscreens {
-        display: none;
-    }
+/*https://www.w3schools.com/cssref/pr_text_text-decoration.php*/
+/*https://www.w3schools.com/cssref/pr_text_white-space.php*/
+.topbaritem{
+    text-decoration: none;
+    white-space: nowrap;
+}
+.leftbaritem{
+    text-decoration: none;
 }
 
-@media (max-width:600px) {
-    .largescreens {
-        display: none;
-    }
-}
+
+
+/*img {
+    border-style: none;
+    vertical-align: middle
+}*/
