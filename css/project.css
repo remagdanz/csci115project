@@ -1,71 +1,26 @@
-/*Robert Magdanz, 567350855*/
-body{
-    background-color: #003B5C;
-    color:antiquewhite;
+.leftbar {
+    height: 100%;
+    width: 140px;
+    background-color: #2348c2;
+    position: fixed;
+    font-weight: bold;
 }
 
+.topbar{
+    position: fixed;
+    width: 100%;
+    background-color: #2348c2;
+    font-weight: bold;
+}
 
-/*https://www.w3schools.com/cssref/css3_pr_mediaquery.php*/
-/*https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htm*/
-/*https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_dark_portfolio&stacked=h*/
-/*https://www.w3schools.com/w3css/4/w3.css*/
-
-
-@media (max-width:600px){
-    .hidesmall{
-        display:none!important;
+@media (min-width:601px) {
+    .smallscreens {
+        display: none;
     }
 }
-@media (max-width:992px) and (min-width:601px){
-    .hidemedium{
-        display:none!important;
+
+@media (max-width:600px) {
+    .largescreens {
+        display: none;
     }
-}
-@media (min-width:993px){
-    .hidelarge{
-        display:none!important;
-    }
-}
-.sidebar{
-    height:100%;
-    width:160px;
-    background-color: #003B5C;
-    position:fixed!important;
-    z-index:1;
-    overflow:auto;
-}
-.baritems{
-    padding:8px 16px;
-    float:left;
-    width:auto;
-    border:none;
-    display:block;
-    outline:0;
-}
-.button{
-    border:none;
-    display:inline-block;
-    padding:8px 16px;
-    vertical-align:middle;
-    overflow:hidden;
-    text-decoration:none;
-    color:inherit;
-    background-color:inherit;
-    text-align:center;
-    cursor:pointer;
-    white-space:nowrap;
-}
-.paddinglarge{
-    padding:12px 24px!important;
-}
-.center{
-    text-align:center!important;
-}
-.bar{
-    width:100%;
-    overflow:hidden;
-}
-.center.bar{
-    display:inline-block;
-    width:auto;
 }
