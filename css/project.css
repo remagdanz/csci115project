@@ -1,5 +1,6 @@
+/* Author: Robert Magdanz, 567350855 */
 body{
-    background-color: rgb(139, 88, 88);
+    background-color: #2348c2;
     color: antiquewhite;
 }
 .leftbar{
@@ -41,11 +42,20 @@ body{
     width: 350px;
     height: auto;
     float: left;
-    background-color: #888;
+    background-color: black;
     margin: 10px 10px;
 }
 .italics{
     font-style: italic;
+}
+a.s:link{
+    color: white;
+}
+a.s:visited{
+    color: green;
+}
+a.s:hover{
+    color: red;
 }
 
 /*https://www.w3schools.com/css/css3_box-sizing.asp*/
@@ -79,9 +89,6 @@ html{
     top: 0;
     left: 0;
 }
-
-/*https://www.w3schools.com/css/css_dimension.asp*/
-
 
 /*https://www.w3schools.com/cssref/pr_text_text-decoration.php*/
 /*https://www.w3schools.com/cssref/pr_text_white-space.php*/
