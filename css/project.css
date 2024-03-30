@@ -44,6 +44,9 @@ body{
     background-color: #888;
     margin: 10px 10px;
 }
+.italics{
+    font-style: italic;
+}
 
 /*https://www.w3schools.com/css/css3_box-sizing.asp*/
 html{
