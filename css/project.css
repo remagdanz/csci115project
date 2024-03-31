@@ -17,6 +17,7 @@ table{
     font-weight: bold;
     height: 100%;
     width: 140px;
+    overflow: auto;
 }
 .leftbaritem{
     padding-right: 16px;
